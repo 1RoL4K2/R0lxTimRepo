@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: Ryan Petrich
 Depends: firmware (>6.0), mobillesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.booleanmagic.displayrecorder_v1.3.14_iphoneos-arm.deb
+Filename: /debs/com.booleanmagic.displayrecorder_v1.3.14_iphoneos-arm.deb
 Size: 875562
 MD5sum: c1720debd5105b4d6e6663e108fb0f93
 Description: Record your screen easily
