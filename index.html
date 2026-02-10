@@ -1,7 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>R0lxTim Repo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: #ffffff;
+        color: #b30000;
+    }
+
+    header {
+        background: linear-gradient(90deg, #b30000, #ff1a1a);
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 16px;
+        opacity: 0.95;
+    }
+
+    .add-btn {
+        margin-top: 20px;
+        display: inline-block;
+        padding: 12px 20px;
+        background: white;
+        color: #b30000;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .add-btn:hover {
+        transform: scale(1.05);
+        background: #ffe5e5;
+    }
+
+    .credit {
+        margin-top:14px;
+        font-size:13px;
+        opacity:0.95;
+    }
+
+    .container {
+        padding: 30px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .tweaks-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .tweak-card {
+        border: 2px solid #b30000;
+        border-radius: 14px;
+        padding: 20px;
+        text-align: center;
+        transition: 0.2s;
+        background: #fff;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .tweak-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .tweak-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #b30000;
+    }
+
+    .tweak-desc {
+        font-size: 14px;
+        color: #444;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 13px;
+        color: #777;
+    }
+</style>
+</head>
+
 <body>
-<h1>Hello World!</h1>
-<p>This is a Cydia repo!</p>
+
+<header>
+    <h1>R0lxTim Repo</h1>
+    <p>Powerful tweaks. Zero clutter. Pure control.</p>
+
+    <a class="add-btn"
+       href="cydia://url/apt/1rol4k2.github.io/R0lxTimRepo">
+       ➕ Add to Cydia
+    </a>
+
+    <div class="credit">
+        Репо сделано вместе с: Tim14885269<br>
+        The repo was made together with: Tim14885269
+    </div>
+</header>
+
+<div class="container">
+    <div class="tweaks-grid">
+
+        <div class="tweak-card">
+            <div class="tweak-title">iFile</div>
+            <div class="tweak-desc">
+                Полноценный файловый менеджер для доступа к системе iOS.
+            </div>
+        </div>
+
+        <div class="tweak-card">
+            <div class="tweak-title">AppSync Unified</div>
+            <div class="tweak-desc">
+                Позволяет устанавливать IPA файлы напрямую на устройство.
+            </div>
+        </div>
+
+        <div class="tweak-card">
+            <div class="tweak-title">Veteris</div>
+            <div class="tweak-desc">
+                Установка старых версий приложений из App Store на старые iOS.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 R0lxTim Repo • Cydia Repository
+</footer>
+
 </body>
 </html>
